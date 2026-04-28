@@ -1,0 +1,366 @@
+/* Foodbook Internal Analysis Tool - Styles */
+/* Modernized to use CSS variables from bslib theme */
+
+/* ========================================
+   Base & Background
+   ======================================== */
+
+body {
+  background: var(--bs-body-bg);
+  color: var(--bs-body-color);
+}
+
+/* ========================================
+   Navbar
+   ======================================== */
+
+.navbar {
+  border-bottom: 1px solid var(--bs-border-color, #d7e3f7);
+  background-color: var(--bs-body-bg);
+  backdrop-filter: blur(6px);
+}
+
+.navbar-brand {
+  color: var(--bs-primary, #EB2D37) !important;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.nav-link {
+  color: var(--bs-body-color) !important;
+  border-radius: 999px;
+  padding: 0.6rem 1.1rem;
+  margin: 0 0.3rem;
+  transition: all 0.2s ease;
+}
+
+.nav-link:hover {
+  color: var(--bs-primary, #EB2D37) !important;
+  background-color: rgba(235, 45, 55, 0.08);
+}
+
+.nav-link.active {
+  color: var(--bs-primary, #EB2D37) !important;
+  background-color: rgba(235, 45, 55, 0.14) !important;
+  box-shadow: inset 0 -3px 0 var(--bs-primary, #EB2D37);
+}
+
+nav.navbar {
+  position: relative;
+  z-index: 1030;
+}
+
+.tab-content {
+  position: relative;
+  z-index: 1;
+}
+
+/* ========================================
+   Sidebar
+   ======================================== */
+
+.bslib-sidebar-layout .sidebar {
+  background: var(--bs-body-bg, #ffffff);
+  border-right: 1px solid var(--bs-border-color, #dde6f5);
+  box-shadow: 4px 0 24px rgba(var(--bs-primary-rgb), 0.08);
+}
+
+.bslib-sidebar-layout .sidebar .title {
+  color: var(--bs-primary, #EB2D37);
+  font-weight: 600;
+}
+
+.sidebar hr {
+  border-color: var(--bs-border-color, #d0ddf0);
+}
+
+.sidebar .form-group > label {
+  font-weight: 600;
+  color: var(--bs-body-color, #334155);
+}
+
+.sidebar .selectize-input,
+.sidebar select.form-control {
+  border-radius: 0.65rem;
+  border: 1px solid var(--bs-border-color, #d0ddf0);
+  min-height: 44px;
+}
+
+.sidebar .selectize-input.focus,
+.sidebar select.form-control:focus {
+  border-color: var(--bs-primary, #EB2D37);
+  box-shadow: 0 0 0 4px rgba(var(--bs-primary-rgb), 0.18);
+  outline: none;
+}
+
+/* ========================================
+   Sidebar Accordion
+   ======================================== */
+
+.sidebar .accordion {
+  --bs-accordion-border-color: var(--bs-border-color, #dde6f5);
+  --bs-accordion-btn-padding-y: 0.65rem;
+  --bs-accordion-btn-padding-x: 0.85rem;
+}
+
+.sidebar .accordion-button {
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: var(--bs-primary, #EB2D37);
+  background-color: transparent;
+}
+
+.sidebar .accordion-button:not(.collapsed) {
+  color: var(--bs-primary, #EB2D37);
+  background-color: rgba(235, 45, 55, 0.04);
+  box-shadow: none;
+}
+
+.sidebar .accordion-body {
+  padding: 0.75rem 0.85rem;
+}
+
+/* ========================================
+   Buttons
+   ======================================== */
+
+.btn-primary {
+  background: var(--bs-primary);
+  border: none;
+  box-shadow: 0 12px 24px rgba(var(--bs-primary-rgb), 0.18);
+  transition: all 0.2s ease;
+}
+
+.btn-primary:hover {
+  background: var(--bs-primary);
+  filter: brightness(0.9);
+  transform: translateY(-1px);
+}
+
+.btn-warning {
+  background: var(--bs-warning);
+  border: none;
+  color: #1f2933;
+  box-shadow: 0 12px 24px rgba(var(--bs-warning-rgb), 0.22);
+  transition: all 0.2s ease;
+}
+
+.btn-warning:hover {
+  background: var(--bs-warning);
+  filter: brightness(0.9);
+  transform: translateY(-1px);
+}
+
+.btn-secondary {
+  background: var(--bs-secondary);
+  border: none;
+  color: #f9fafb;
+}
+
+/* ========================================
+   Cards
+   ======================================== */
+
+.card {
+  border: 1px solid var(--bs-border-color, #dde6f5);
+  box-shadow: 0 12px 30px rgba(var(--bs-primary-rgb), 0.12);
+  transition: box-shadow 0.2s ease;
+}
+
+.card:hover {
+  box-shadow: 0 14px 32px rgba(var(--bs-primary-rgb), 0.15);
+}
+
+.card-header {
+  background: var(--bs-card-cap-bg);
+  border-bottom: 1px solid var(--bs-border-color, #d0ddf0);
+  font-weight: 600;
+  color: var(--bs-primary, #EB2D37);
+}
+
+/* ========================================
+   Selectize / Inputs
+   ======================================== */
+
+.selectize-input {
+  border: 2px solid var(--bs-border-color, #d0ddf0);
+  border-radius: 0.65rem;
+  min-height: 44px;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.selectize-input.focus {
+  border-color: var(--bs-primary, #EB2D37);
+  box-shadow: 0 0 0 4px rgba(235, 45, 55, 0.18);
+}
+
+.selectize-dropdown-content .option.active {
+  background: rgba(235, 45, 55, 0.08);
+  color: var(--bs-primary, #EB2D37);
+}
+
+/* ========================================
+   DataTables
+   ======================================== */
+
+/* Fit table within panel without horizontal scroll */
+.dataTables_wrapper,
+table.dataTable {
+  width: 100% !important;
+  table-layout: auto;
+}
+
+table.dataTable th,
+table.dataTable td {
+  font-size: 0.8rem;
+  padding: 0.35rem 0.4rem !important;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 120px;
+}
+
+/* Let Reference Scope (1st col) and Exposure (2nd col) wrap */
+table.dataTable td:nth-child(1),
+table.dataTable td:nth-child(2) {
+  white-space: normal;
+  word-break: break-word;
+}
+
+/* Constrain Reference Scope column width */
+table.dataTable td:nth-child(1) {
+  max-width: 180px;
+}
+
+/* Let Exposure column have more room */
+table.dataTable td:nth-child(2) {
+  max-width: 160px;
+}
+
+.dataTables_wrapper .dt-buttons .btn {
+  background: var(--bs-primary, #EB2D37);
+  color: #ffffff;
+  border: none;
+  border-radius: 0.5rem;
+  box-shadow: 0 8px 18px rgba(235, 45, 55, 0.18);
+}
+
+.dataTables_wrapper .dt-buttons .btn:hover {
+  background: #B91C25;
+}
+
+.dataTables_wrapper .dataTables_filter input {
+  border-radius: 0.5rem;
+  border: 1px solid var(--bs-border-color, #d0ddf0);
+  padding: 0.45rem 0.75rem;
+}
+
+/* ========================================
+   Language Selector (in navbar via nav_item)
+   ======================================== */
+
+.navbar .nav-item .form-group {
+  margin: 0;
+}
+
+.navbar .nav-item .form-group > label {
+  display: none;
+}
+
+.navbar .nav-item select.form-select,
+.navbar .nav-item select.form-control {
+  padding: 0.35rem 0.75rem;
+  border-radius: 0.5rem;
+  border: 1px solid var(--bs-border-color, #d0ddf0);
+  background: var(--bs-body-bg);
+  color: var(--bs-body-color);
+  font-weight: 500;
+  font-size: 0.85rem;
+  cursor: pointer;
+  min-width: 120px;
+  transition: all 0.2s ease;
+}
+
+.navbar .nav-item select:hover {
+  border-color: var(--bs-primary, #EB2D37);
+  color: var(--bs-primary, #EB2D37);
+}
+
+.navbar .nav-item select:focus {
+  outline: none;
+  border-color: var(--bs-primary, #EB2D37);
+  box-shadow: 0 0 0 3px rgba(235, 45, 55, 0.1);
+}
+
+/* Dark mode toggle */
+.navbar .nav-item .form-check.form-switch {
+  margin: 0;
+  padding-top: 0.25rem;
+}
+
+/* ========================================
+   About Panel
+   ======================================== */
+
+.well-panel-about h4 {
+  color: var(--bs-primary, #EB2D37);
+  font-weight: 600;
+}
+
+.well-panel-about li {
+  margin-bottom: 0.55rem;
+  line-height: 1.5;
+}
+
+/* ========================================
+   Results Table Row Classification Colors
+   ======================================== */
+
+.fb-alert-row,
+.fb-alert-row td {
+  background-color: #f8d7da !important;
+  border-left: 5px solid #dc3545 !important;
+}
+
+.fb-alert-row td:first-child::before {
+  content: "\26A0\FE0E ";
+  font-size: 0.9em;
+}
+
+.fb-borderline-row,
+.fb-borderline-row td {
+  background-color: #fff3cd !important;
+  border-left: 5px solid #fd7e14 !important;
+}
+
+.fb-borderline-row td:first-child::before {
+  content: "\25B2 ";
+  font-size: 0.75em;
+}
+
+[data-bs-theme="dark"] .fb-alert-row,
+[data-bs-theme="dark"] .fb-alert-row td {
+  background-color: rgba(220, 53, 69, 0.2) !important;
+  border-left-color: #dc3545 !important;
+}
+
+[data-bs-theme="dark"] .fb-borderline-row,
+[data-bs-theme="dark"] .fb-borderline-row td {
+  background-color: rgba(253, 126, 20, 0.2) !important;
+  border-left-color: #fd7e14 !important;
+}
+
+/* ========================================
+   Subtle Animation Utilities
+   ======================================== */
+
+@media (prefers-reduced-motion: no-preference) {
+  .btn {
+    transition: all 0.2s ease;
+  }
+
+  .card {
+    transition: box-shadow 0.25s ease;
+  }
+}

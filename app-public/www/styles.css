@@ -1,0 +1,538 @@
+/* Foodbook Public Analysis Tool - Styles */
+/* Uses CSS custom properties (Bootstrap 5) for theme consistency */
+
+/* ========================================
+   Base & Background
+   ======================================== */
+
+body {
+  background: var(--bs-body-bg);
+  color: var(--bs-body-color);
+}
+
+/* ========================================
+   Navbar
+   ======================================== */
+
+.navbar {
+  border-bottom: 1px solid var(--bs-border-color, #d7e3f7);
+  background-color: var(--bs-body-bg);
+  backdrop-filter: blur(6px);
+}
+
+.navbar-brand {
+  color: var(--bs-primary, #EB2D37) !important;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.nav-link {
+  color: var(--bs-body-color) !important;
+  border-radius: 999px;
+  padding: 0.6rem 1.1rem;
+  margin: 0 0.3rem;
+  transition: all 0.2s ease;
+}
+
+.nav-link:hover {
+  color: var(--bs-primary, #EB2D37) !important;
+  background-color: rgba(235, 45, 55, 0.08);
+}
+
+.nav-link.active {
+  color: var(--bs-primary, #EB2D37) !important;
+  background-color: rgba(235, 45, 55, 0.12) !important;
+  box-shadow: inset 0 -3px 0 var(--bs-primary, #EB2D37);
+}
+
+/* ========================================
+   Sidebar
+   ======================================== */
+
+.bslib-sidebar-layout .sidebar {
+  background: var(--bs-body-bg);
+  border-right: 1px solid var(--bs-border-color, #dde6f5);
+  box-shadow: 4px 0 24px rgba(var(--bs-primary-rgb), 0.06);
+}
+
+.bslib-sidebar-layout .sidebar .title {
+  color: var(--bs-primary, #EB2D37);
+  font-weight: 600;
+}
+
+.sidebar hr {
+  border-color: var(--bs-border-color, #d0ddf0);
+}
+
+.sidebar .form-group > label {
+  font-weight: 600;
+  color: var(--bs-body-color);
+}
+
+.sidebar .selectize-input,
+.sidebar select.form-control {
+  border-radius: 0.65rem;
+  border: 1px solid var(--bs-border-color, #d0ddf0);
+  min-height: 44px;
+}
+
+.sidebar .selectize-input.focus,
+.sidebar select.form-control:focus {
+  border-color: var(--bs-primary, #EB2D37);
+  box-shadow: 0 0 0 4px rgba(235, 45, 55, 0.15);
+  outline: none;
+}
+
+.sidebar .action-button {
+  font-weight: 600;
+}
+
+/* ========================================
+   Buttons
+   ======================================== */
+
+.btn-primary {
+  background: var(--bs-primary);
+  border: none;
+  box-shadow: 0 4px 12px rgba(235, 45, 55, 0.18);
+  transition: all 0.2s ease;
+}
+
+.btn-primary:hover {
+  background: var(--bs-primary);
+  filter: brightness(0.9);
+  box-shadow: 0 6px 16px rgba(235, 45, 55, 0.25);
+  transform: translateY(-1px);
+}
+
+.btn-warning {
+  background: var(--bs-warning);
+  border: none;
+  color: #1f2933;
+  box-shadow: 0 4px 12px rgba(var(--bs-warning-rgb), 0.18);
+  transition: all 0.2s ease;
+}
+
+.btn-warning:hover {
+  background: var(--bs-warning);
+  filter: brightness(0.9);
+  box-shadow: 0 6px 16px rgba(var(--bs-warning-rgb), 0.25);
+  transform: translateY(-1px);
+}
+
+.btn-secondary {
+  background: var(--bs-secondary);
+  border: none;
+  color: #f9fafb;
+  transition: all 0.2s ease;
+}
+
+.btn-secondary:hover {
+  transform: translateY(-1px);
+}
+
+/* ========================================
+   Cards
+   ======================================== */
+
+.card {
+  border: 1px solid var(--bs-border-color, #dde6f5);
+  box-shadow: 0 4px 16px rgba(var(--bs-primary-rgb), 0.08);
+  transition: box-shadow 0.25s ease;
+}
+
+.card:hover {
+  box-shadow: 0 8px 28px rgba(var(--bs-primary-rgb), 0.12);
+}
+
+.card-header {
+  background: var(--bs-card-cap-bg);
+  border-bottom: 1px solid var(--bs-border-color, #d0ddf0);
+  font-weight: 600;
+  color: var(--bs-primary, #EB2D37);
+}
+
+/* ========================================
+   Tabs (inside navset_card_underline)
+   ======================================== */
+
+.nav-tabs .nav-link,
+.nav-underline .nav-link {
+  color: var(--bs-secondary, #4b5563) !important;
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+.nav-tabs .nav-link.active,
+.nav-underline .nav-link.active {
+  color: var(--bs-primary, #0e4a7b) !important;
+  background-color: transparent !important;
+}
+
+/* ========================================
+   Selectize Inputs
+   ======================================== */
+
+.selectize-input {
+  border: 2px solid var(--bs-border-color, #d0ddf0);
+  border-radius: 0.65rem;
+  min-height: 50px;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.selectize-input.focus {
+  border-color: var(--bs-primary, #EB2D37);
+  box-shadow: 0 0 0 4px rgba(235, 45, 55, 0.15);
+}
+
+.selectize-dropdown-content .option.active {
+  background: rgba(235, 45, 55, 0.08);
+  color: var(--bs-primary, #EB2D37);
+}
+
+/* ========================================
+   Z-index / Navbar Layering
+   ======================================== */
+
+nav.navbar {
+  position: relative;
+  z-index: 1030;
+}
+
+.tab-content {
+  position: relative;
+  z-index: 1;
+}
+
+/* ========================================
+   Language Selector (in navbar via nav_item)
+   ======================================== */
+
+.navbar .nav-item .form-group {
+  margin: 0;
+}
+
+.navbar .nav-item .form-group > label {
+  display: none;
+}
+
+.navbar .nav-item select.form-select,
+.navbar .nav-item select.form-control {
+  padding: 0.35rem 0.75rem;
+  border-radius: 0.5rem;
+  border: 1px solid var(--bs-border-color, #d0ddf0);
+  background: var(--bs-body-bg);
+  color: var(--bs-body-color);
+  font-weight: 500;
+  font-size: 0.85rem;
+  cursor: pointer;
+  min-width: 120px;
+  transition: all 0.2s ease;
+}
+
+.navbar .nav-item select:hover {
+  border-color: var(--bs-primary, #EB2D37);
+  color: var(--bs-primary, #EB2D37);
+}
+
+.navbar .nav-item select:focus {
+  outline: none;
+  border-color: var(--bs-primary, #EB2D37);
+  box-shadow: 0 0 0 3px rgba(235, 45, 55, 0.1);
+}
+
+/* Dark mode toggle button */
+.navbar .nav-item .form-check.form-switch {
+  margin: 0;
+  padding-top: 0.25rem;
+}
+
+/* ========================================
+   Sidebar Accordion
+   ======================================== */
+
+.sidebar .accordion {
+  --bs-accordion-border-color: var(--bs-border-color, #dde6f5);
+  --bs-accordion-btn-padding-y: 0.65rem;
+  --bs-accordion-btn-padding-x: 0.85rem;
+}
+
+.sidebar .accordion-button {
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: var(--bs-primary, #EB2D37);
+  background-color: transparent;
+}
+
+.sidebar .accordion-button:not(.collapsed) {
+  color: var(--bs-primary, #EB2D37);
+  background-color: rgba(235, 45, 55, 0.04);
+  box-shadow: none;
+}
+
+.sidebar .accordion-body {
+  padding: 0.75rem 0.85rem;
+}
+
+/* ========================================
+   Exposure Input Groups
+   ======================================== */
+
+.exposure-input-group {
+  border: 1px solid var(--bs-border-color, #dde6f5);
+  border-radius: 0.85rem;
+  background: var(--bs-card-bg);
+  padding: 1.2rem;
+  margin-bottom: 1.25rem;
+  box-shadow: 0 4px 16px rgba(14, 74, 123, 0.06);
+  transition: box-shadow 0.25s ease, border-color 0.25s ease;
+}
+
+.exposure-input-group:hover {
+  box-shadow: 0 8px 24px rgba(14, 74, 123, 0.1);
+  border-color: rgba(14, 74, 123, 0.2);
+}
+
+.exposure-input-group:first-child {
+  margin-top: 0.75rem;
+}
+
+.exposure-input-group .row {
+  row-gap: 0.75rem;
+}
+
+.exposure-header {
+  color: var(--bs-primary, #EB2D37);
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+/* Compact exposure input group (side-by-side layout) */
+.exposure-input-group.compact {
+  padding: 0.6rem 0.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.exposure-header-compact {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.4rem;
+  font-size: 0.9rem;
+  color: var(--bs-primary, #EB2D37);
+  font-weight: 600;
+}
+
+.ref-badge {
+  background: var(--bs-success, #176d4e);
+  color: #fff;
+  padding: 0.15rem 0.5rem;
+  border-radius: 0.5rem;
+  font-size: 0.78rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+[data-bs-theme="dark"] .ref-badge {
+  background: #1a9e6e;
+}
+
+.exposure-input-group.compact .form-group {
+  margin-bottom: 0;
+}
+
+.exposure-input-group.compact label {
+  font-size: 0.75rem;
+  margin-bottom: 0.1rem;
+}
+
+.exposure-input-group.compact .form-control {
+  padding: 0.3rem 0.5rem;
+  font-size: 0.85rem;
+}
+
+.exposure-input-group .form-control {
+  border-radius: 0.65rem;
+  border: 1px solid var(--bs-border-color, #d0ddf0);
+  padding: 0.6rem 0.75rem;
+  font-weight: 500;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.exposure-input-group .form-control:focus {
+  border-color: var(--bs-primary, #EB2D37);
+  box-shadow: 0 0 0 4px rgba(235, 45, 55, 0.12);
+}
+
+.ref-value {
+  color: var(--bs-success, #176d4e);
+  font-weight: 600;
+  display: inline-block;
+  margin-top: 0.25rem;
+}
+
+/* ========================================
+   DataTables
+   ======================================== */
+
+/* Prevent horizontal scroll -- fit table within panel */
+.results-panel .dataTables_wrapper,
+.results-panel table.dataTable {
+  width: 100% !important;
+  table-layout: auto;
+}
+
+.results-panel table.dataTable th,
+.results-panel table.dataTable td {
+  font-size: 0.8rem;
+  padding: 0.35rem 0.4rem !important;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 120px;
+}
+
+/* Let exposure name column wrap */
+.results-panel table.dataTable td:nth-child(2) {
+  white-space: normal;
+  max-width: 140px;
+  word-break: break-word;
+}
+
+.dataTables_wrapper .dt-buttons .btn {
+  background: var(--bs-primary, #EB2D37);
+  color: #ffffff;
+  border: none;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 12px rgba(235, 45, 55, 0.15);
+  transition: all 0.2s ease;
+}
+
+.dataTables_wrapper .dt-buttons .btn:hover {
+  background: #B91C25;
+  transform: translateY(-1px);
+}
+
+.dataTables_wrapper .dataTables_filter input {
+  border-radius: 0.5rem;
+  border: 1px solid var(--bs-border-color, #d0ddf0);
+  padding: 0.45rem 0.75rem;
+  transition: border-color 0.2s ease;
+}
+
+/* ========================================
+   About Panel
+   ======================================== */
+
+.well-panel-about h4 {
+  color: var(--bs-primary, #EB2D37);
+  font-weight: 600;
+}
+
+.well-panel-about li {
+  margin-bottom: 0.55rem;
+  line-height: 1.6;
+}
+
+/* ========================================
+   Value Box Summary Strip
+   ======================================== */
+
+.summary-value-box .card {
+  box-shadow: none;
+  border: 1px solid var(--bs-border-color, #dde6f5);
+}
+
+/* ========================================
+   Visualization Empty State
+   ======================================== */
+
+.viz-empty-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 2rem;
+  text-align: center;
+  color: var(--bs-secondary, #4b5563);
+}
+
+.viz-empty-state .empty-icon {
+  font-size: 3rem;
+  color: var(--bs-border-color, #d0ddf0);
+  margin-bottom: 1rem;
+}
+
+.viz-empty-state p {
+  max-width: 360px;
+  line-height: 1.6;
+}
+
+/* ========================================
+   Scrollable Exposure Container
+   ======================================== */
+
+.exposure-scroll-container {
+  max-height: calc(100vh - 320px);
+  overflow-y: auto;
+}
+
+@media (max-width: 991.98px) {
+  .exposure-scroll-container {
+    max-height: 50vh;
+  }
+}
+
+/* ========================================
+   Results Table Row Classification Colors
+   ======================================== */
+
+.fb-alert-row,
+.fb-alert-row td {
+  background-color: #f8d7da !important;
+  border-left: 5px solid #dc3545 !important;
+}
+
+.fb-alert-row td:first-child::before {
+  content: "\26A0\FE0E ";
+  font-size: 0.9em;
+}
+
+.fb-borderline-row,
+.fb-borderline-row td {
+  background-color: #fff3cd !important;
+  border-left: 5px solid #fd7e14 !important;
+}
+
+.fb-borderline-row td:first-child::before {
+  content: "\25B2 ";
+  font-size: 0.75em;
+}
+
+[data-bs-theme="dark"] .fb-alert-row,
+[data-bs-theme="dark"] .fb-alert-row td {
+  background-color: rgba(220, 53, 69, 0.2) !important;
+  border-left-color: #dc3545 !important;
+}
+
+[data-bs-theme="dark"] .fb-borderline-row,
+[data-bs-theme="dark"] .fb-borderline-row td {
+  background-color: rgba(253, 126, 20, 0.2) !important;
+  border-left-color: #fd7e14 !important;
+}
+
+/* ========================================
+   Subtle Animation Utilities
+   ======================================== */
+
+@media (prefers-reduced-motion: no-preference) {
+  .btn {
+    transition: all 0.2s ease;
+  }
+
+  .card {
+    transition: box-shadow 0.25s ease;
+  }
+}

@@ -1,0 +1,36 @@
+# R project ignores
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+.Renviron
+
+# Posit/RStudio
+.posit/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs and temp
+*.log
+tmp/
+~$*
+
+# Local test exports that are not meant for the repo
+data/test-data/
+
+# Deployment and plots
+rsconnect/
+Rplots.pdf
+
+# Local tooling
+.vscode/
+
+# Archived data (no longer used)
+archive/
+
+# renv (removed — using system library)
+renv/
+renv.lock
+.Rprofile
