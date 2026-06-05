@@ -5,28 +5,28 @@
 "tomroma",6,"VEGETABLES","LÉGUMES","Roma/plum tomatoes*","Tomates Roma/italiennes*",TRUE
 "tomhot",7,"VEGETABLES","LÉGUMES","Hothouse tomatoes*","Tomates de Serre*",TRUE
 "tombeef",8,"VEGETABLES","LÉGUMES","Beefsteak tomatoes*","Tomates Cœur de bœuf*",TRUE
-"anylg",9,"VEGETABLES","LÉGUMES","Any lettuce or leafy greens","Laitue ou légumes-feuilles",FALSE
+"anylettuce",9,"VEGETABLES","LÉGUMES","Any lettuce or leafy greens","Laitue ou légumes-feuilles",FALSE
 "iceberg",10,"VEGETABLES","LÉGUMES","Iceberg lettuce","Laitue Iceberg",FALSE
 "romaine",11,"VEGETABLES","LÉGUMES","Romaine lettuce","Laitue Romaine",FALSE
 "spinach",12,"VEGETABLES","LÉGUMES","Spinach","Épinard",FALSE
 "mesclun",13,"VEGETABLES","LÉGUMES","Mesclun greens","Mesclun (mélange printanier)",FALSE
 "kale",14,"VEGETABLES","LÉGUMES","Kale","Chou frisé",FALSE
 "arugula",15,"VEGETABLES","LÉGUMES","Arugula","Roquette",FALSE
-"otherlg",16,"VEGETABLES","LÉGUMES","Other leafy greens","Autre légumes-feuilles",FALSE
+"olettuce",16,"VEGETABLES","LÉGUMES","Other leafy greens","Autre légumes-feuilles",FALSE
 "fb1_lettuceorleafygreensonasandwichburgerortacoatrestaurantorfastfoodestablishment",17,"VEGETABLES","LÉGUMES","Lettuce or leafy greens on a sandwich, burger or taco at restaurant or fast  food establishment*","Laitue ou légumes-feuilles dans un sandwich, un hamburger ou un taco provenant d'un restaurant ou d'un restaurant-minute*",TRUE
 "prepacklg",18,"VEGETABLES","LÉGUMES","Pre-packaged lettuce or leafy greens","Légumes-feuilles préemballés",FALSE
-"prepacksalad",19,"VEGETABLES","LÉGUMES","Commercially pre-packaged salad kits","Trousse de salade commerciale préemballée",FALSE
-"rtegreensal",20,"VEGETABLES","LÉGUMES","Any store-bought or ready to eat green salad","Salade verte du commerce ou prête à manger",FALSE
+"saladkit",19,"VEGETABLES","LÉGUMES","Commercially pre-packaged salad kits","Trousse de salade commerciale préemballée",FALSE
+"greensal",20,"VEGETABLES","LÉGUMES","Any store-bought or ready to eat green salad","Salade verte du commerce ou prête à manger",FALSE
 "cabbage",21,"VEGETABLES","LÉGUMES","Cabbage (includes coleslaw)","Chou (y compris sous forme de salade de chou)",FALSE
 "coleslaw",22,"VEGETABLES","LÉGUMES","Any coleslaw","Salade de chou",FALSE
-"sprout",23,"VEGETABLES","LÉGUMES","Any microgreens or sprouts","Micropousses ou graines germées",FALSE
-"alfalfa",24,"VEGETABLES","LÉGUMES","Microgreens","Germes de luzerne",FALSE
-"beansprouts",25,"VEGETABLES","LÉGUMES","Alfalfa sprouts","Germes de haricot",FALSE
-"microgreen",26,"VEGETABLES","LÉGUMES","Bean sprouts","Micropousses",FALSE
+"sprouts",23,"VEGETABLES","LÉGUMES","Any microgreens or sprouts","Micropousses ou graines germées",FALSE
+"microgreens",24,"VEGETABLES","LÉGUMES","Microgreens","Micropousses",FALSE
+"alfalfa",25,"VEGETABLES","LÉGUMES","Alfalfa sprouts","Germes de luzerne",FALSE
+"beansprouts",26,"VEGETABLES","LÉGUMES","Bean sprouts","Germes de haricot",FALSE
 "osprout",27,"VEGETABLES","LÉGUMES","Other sprouts","Autres germes",FALSE
-"cucumber",28,"VEGETABLES","LÉGUMES","Cucumbers","Concombres",FALSE
+"cucumbers",28,"VEGETABLES","LÉGUMES","Cucumbers","Concombres",FALSE
 "bpeppers",29,"VEGETABLES","LÉGUMES","Bell peppers","Poivrons",FALSE
-"hotpep",30,"VEGETABLES","LÉGUMES","Hot peppers","Piments forts",FALSE
+"hotpeppers",30,"VEGETABLES","LÉGUMES","Hot peppers","Piments forts",FALSE
 "pea",31,"VEGETABLES","LÉGUMES","Peas (shelled or in pods)*","Pois (écossés ou non)*",TRUE
 "snappea",32,"VEGETABLES","LÉGUMES","Sugar snap peas","Pois mange-tout",FALSE
 "gybeans",33,"VEGETABLES","LÉGUMES","Green or yellow beans*","Haricots verts ou jaunes*",TRUE
@@ -34,11 +34,11 @@
 "fb1_carrotsnotmini",35,"VEGETABLES","LÉGUMES","Carrots (not mini)*","Carottes (pas des mini-carottes)*",TRUE
 "minicar",36,"VEGETABLES","LÉGUMES","Mini/baby carrots","Mini-carottes/carottes miniatures",FALSE
 "mushroom",37,"VEGETABLES","LÉGUMES","Mushrooms","Champignons",FALSE
-"onion",38,"VEGETABLES","LÉGUMES","Any onions","Oignons",FALSE
+"onions",38,"VEGETABLES","LÉGUMES","Any onions","Oignons",FALSE
 "grnonion",39,"VEGETABLES","LÉGUMES","Green onions","Oignons verts",FALSE
 "redonion",40,"VEGETABLES","LÉGUMES","Red onions","Oignons rouges",FALSE
 "oonion",41,"VEGETABLES","LÉGUMES","Other onions","Autres oignons",FALSE
-"yelonion",42,"VEGETABLES","LÉGUMES","White/yellow onions*","Oignons blancs ou jaunes*",TRUE
+"whtonion",42,"VEGETABLES","LÉGUMES","White/yellow onions*","Oignons blancs ou jaunes*",TRUE
 "celery",43,"VEGETABLES","LÉGUMES","Celery*","Céleri*",TRUE
 "broccoli",44,"VEGETABLES","LÉGUMES","Broccoli*","Brocoli*",TRUE
 "cauliflo",45,"VEGETABLES","LÉGUMES","Cauliflower*","Chou-fleur*",TRUE
@@ -48,7 +48,7 @@
 "vegjuice",49,"VEGETABLES","LÉGUMES","Any vegetable juices*","Jus de légumes*",TRUE
 "vegez",50,"VEGETABLES","LÉGUMES","Frozen vegetables*","Légumes congelés*",TRUE
 "anyfreshherbs",52,"VEGETABLES","LÉGUMES","Any fresh herbs","Herbes fraiches",FALSE
-"basil",53,"VEGETABLES","LÉGUMES","Fresh basil","Basilic frais",FALSE
+"anybasil",53,"VEGETABLES","LÉGUMES","Fresh basil","Basilic frais",FALSE
 "tbasil",54,"VEGETABLES","LÉGUMES","Fresh Thai basil*","Basilic thaï frais*",TRUE
 "cilantro",55,"VEGETABLES","LÉGUMES","Fresh cilantro/coriander","Coriandre fraîche",FALSE
 "parsley",56,"VEGETABLES","LÉGUMES","Fresh parsley","Persil frais",FALSE
@@ -66,56 +66,56 @@
 "fruitsal",69,"VEGETABLES","LÉGUMES","Fruit salad/pre-cut fruit/fruit platter (store-bought prepared)*","Salades de fruits, fruits coupés ou assiette de fruits*",TRUE
 "salsa",70,"VEGETABLES","LÉGUMES","Store-bought salsa*","Sauce salsa*",TRUE
 "mango",72,"FRUITS","FRUITS","Mangoes","Mangues",FALSE
-"mangof",73,"FRUITS","FRUITS","Fresh mango","Mangues fraîches",FALSE
-"mangoz",74,"FRUITS","FRUITS","Frozen mango","Mangues surgelées",FALSE
-"mangod",75,"FRUITS","FRUITS","Dried mango","Mangues séchées",FALSE
+"mango_f",73,"FRUITS","FRUITS","Fresh mango","Mangues fraîches",FALSE
+"mango_z",74,"FRUITS","FRUITS","Frozen mango","Mangues surgelées",FALSE
+"mango_d",75,"FRUITS","FRUITS","Dried mango","Mangues séchées",FALSE
 "papaya",76,"FRUITS","FRUITS","Papayas","Papayes",FALSE
-"papayaf",77,"FRUITS","FRUITS","Fresh papaya","Papayes fraîches",FALSE
-"papayaz",78,"FRUITS","FRUITS","Frozen papaya","Papayes surgelées",FALSE
-"papayad",79,"FRUITS","FRUITS","Dried papaya","Papayes séchées",FALSE
+"papaya_f",77,"FRUITS","FRUITS","Fresh papaya","Papayes fraîches",FALSE
+"papaya_z",78,"FRUITS","FRUITS","Frozen papaya","Papayes surgelées",FALSE
+"papaya_d",79,"FRUITS","FRUITS","Dried papaya","Papayes séchées",FALSE
 "pomegra",80,"FRUITS","FRUITS","Pomegranate","Grenades",FALSE
-"pomegraf",81,"FRUITS","FRUITS","Fresh pomegranate (including seeds)","Grenades fraîches (y compris les graines prêtes à manger)",FALSE
-"pomegraz",82,"FRUITS","FRUITS","Frozen pomegranate","Grenades surgelées",FALSE
+"pomegra_f",81,"FRUITS","FRUITS","Fresh pomegranate (including seeds)","Grenades fraîches (y compris les graines prêtes à manger)",FALSE
+"pomegra_z",82,"FRUITS","FRUITS","Frozen pomegranate","Grenades surgelées",FALSE
 "avocado",83,"FRUITS","FRUITS","Avocado (including guacamole)","Avocats (y compris le guacamole)",FALSE
-"avocadof",84,"FRUITS","FRUITS","Fresh avocado","Avocats frais",FALSE
-"avocadoz",85,"FRUITS","FRUITS","Frozen avocado","Avocats surgelés",FALSE
+"avocado_f",84,"FRUITS","FRUITS","Fresh avocado","Avocats frais",FALSE
+"avocado_z",85,"FRUITS","FRUITS","Frozen avocado","Avocats surgelés",FALSE
 "melon",86,"FRUITS","FRUITS","Any melon","Tout type de melons",FALSE
 "cantaloup",87,"FRUITS","FRUITS","Cantaloupe","Cantaloups",FALSE
-"cantaloupf",88,"FRUITS","FRUITS","Fresh cantaloupe","Cantaloups frais",FALSE
-"cantaloupz",89,"FRUITS","FRUITS","Frozen cantaloupe","Cantaloups surgelés",FALSE
+"cantaloup_f",88,"FRUITS","FRUITS","Fresh cantaloupe","Cantaloups frais",FALSE
+"cantaloup_z",89,"FRUITS","FRUITS","Frozen cantaloupe","Cantaloups surgelés",FALSE
 "honeydew",90,"FRUITS","FRUITS","Honeydew melon","Melons miel",FALSE
-"honeydewf",91,"FRUITS","FRUITS","Fresh honeydew melon","Melons miel frais",FALSE
-"honeydewz",92,"FRUITS","FRUITS","Frozen honeydew melon","Melons miel surgelés",FALSE
+"honeydew_f",91,"FRUITS","FRUITS","Fresh honeydew melon","Melons miel frais",FALSE
+"honeydew_z",92,"FRUITS","FRUITS","Frozen honeydew melon","Melons miel surgelés",FALSE
 "watermel",93,"FRUITS","FRUITS","Watermelon","Melons d’eau",FALSE
-"watermelf",94,"FRUITS","FRUITS","Fresh watermelon","Melons d’eau frais",FALSE
-"watermelz",95,"FRUITS","FRUITS","Frozen watermelon","Melons d’eau surgelés",FALSE
+"watermel_f",94,"FRUITS","FRUITS","Fresh watermelon","Melons d’eau frais",FALSE
+"watermel_z",95,"FRUITS","FRUITS","Frozen watermelon","Melons d’eau surgelés",FALSE
 "peach",96,"FRUITS","FRUITS","Peaches","Pêches",FALSE
-"peachf",97,"FRUITS","FRUITS","Fresh peaches","Pêches fraîches",FALSE
-"peachz",98,"FRUITS","FRUITS","Frozen peaches","Pêches surgelées",FALSE
+"peach_f",97,"FRUITS","FRUITS","Fresh peaches","Pêches fraîches",FALSE
+"peach_z",98,"FRUITS","FRUITS","Frozen peaches","Pêches surgelées",FALSE
 "nectarine",99,"FRUITS","FRUITS","Nectarines","Nectarines",FALSE
-"nectarinef",100,"FRUITS","FRUITS","Fresh nectarines","Nectarines fraîches",FALSE
-"nectarinez",101,"FRUITS","FRUITS","Frozen nectarines","Nectarines surgelées",FALSE
+"nectarine_f",100,"FRUITS","FRUITS","Fresh nectarines","Nectarines fraîches",FALSE
+"nectarine_z",101,"FRUITS","FRUITS","Frozen nectarines","Nectarines surgelées",FALSE
 "anyberry",102,"FRUITS","FRUITS","Any berries","Petits fruits",FALSE
 "strawb",103,"FRUITS","FRUITS","Strawberries","Fraises",FALSE
-"strawbf",104,"FRUITS","FRUITS","Fresh strawberries","Fraises fraîches",FALSE
-"strawbz",105,"FRUITS","FRUITS","Frozen strawberries","Fraises surgelées",FALSE
-"strawbd",106,"FRUITS","FRUITS","Dried strawberries","Fraises séchées",FALSE
+"strawb_f",104,"FRUITS","FRUITS","Fresh strawberries","Fraises fraîches",FALSE
+"strawb_z",105,"FRUITS","FRUITS","Frozen strawberries","Fraises surgelées",FALSE
+"strawb_d",106,"FRUITS","FRUITS","Dried strawberries","Fraises séchées",FALSE
 "raspb",107,"FRUITS","FRUITS","Raspberries","Framboises",FALSE
-"raspbf",108,"FRUITS","FRUITS","Fresh raspberries","Framboises fraîches",FALSE
-"raspbz",109,"FRUITS","FRUITS","Frozen raspberries","Framboises surgelées",FALSE
-"raspbd",110,"FRUITS","FRUITS","Dried raspberries","Framboises séchées",FALSE
+"raspb_f",108,"FRUITS","FRUITS","Fresh raspberries","Framboises fraîches",FALSE
+"raspb_z",109,"FRUITS","FRUITS","Frozen raspberries","Framboises surgelées",FALSE
+"raspb_d",110,"FRUITS","FRUITS","Dried raspberries","Framboises séchées",FALSE
 "blueb",111,"FRUITS","FRUITS","Blueberries","Bleuets",FALSE
-"bluebf",112,"FRUITS","FRUITS","Fresh blueberries","Bleuets frais",FALSE
-"bluebz",113,"FRUITS","FRUITS","Frozen blueberries","Bleuets surgelés",FALSE
-"bluebd",114,"FRUITS","FRUITS","Dried blueberries","Bleuets séchés",FALSE
+"blueb_f",112,"FRUITS","FRUITS","Fresh blueberries","Bleuets frais",FALSE
+"blueb_z",113,"FRUITS","FRUITS","Frozen blueberries","Bleuets surgelés",FALSE
+"blueb_d",114,"FRUITS","FRUITS","Dried blueberries","Bleuets séchés",FALSE
 "blackb",115,"FRUITS","FRUITS","Blackberries","Mûres",FALSE
-"blackbf",116,"FRUITS","FRUITS","Fresh blackberries","Mûres fraîches",FALSE
-"blackbz",117,"FRUITS","FRUITS","Frozen blackberries","Mûres surgelées",FALSE
-"blackbd",118,"FRUITS","FRUITS","Dried blackberries","Mûres séchées",FALSE
+"blackb_f",116,"FRUITS","FRUITS","Fresh blackberries","Mûres fraîches",FALSE
+"blackb_z",117,"FRUITS","FRUITS","Frozen blackberries","Mûres surgelées",FALSE
+"blackb_d",118,"FRUITS","FRUITS","Dried blackberries","Mûres séchées",FALSE
 "coconut",119,"FRUITS","FRUITS","Coconut","Noix de coco",FALSE
-"coconutf",120,"FRUITS","FRUITS","Fresh coconut","Noix de coco fraîches",FALSE
-"coconutz",121,"FRUITS","FRUITS","Frozen coconut","Noix de coco surgelées",FALSE
-"coconutd",122,"FRUITS","FRUITS","Dried/shredded coconut","Noix de coco séchées",FALSE
+"coconut_f",120,"FRUITS","FRUITS","Fresh coconut","Noix de coco fraîches",FALSE
+"coconut_z",121,"FRUITS","FRUITS","Frozen coconut","Noix de coco surgelées",FALSE
+"coconut_d",122,"FRUITS","FRUITS","Dried/shredded coconut","Noix de coco séchées",FALSE
 "apple",123,"FRUITS","FRUITS","Apples*","Pommes*",TRUE
 "pear",124,"FRUITS","FRUITS","Pears*","Poires*",TRUE
 "apricot",125,"FRUITS","FRUITS","Apricots*","Abricots*",TRUE
@@ -135,13 +135,13 @@
 "fruitsm",139,"FRUITS","FRUITS","Fruit smoothies (at home or store-bought)","Boissons fouettées aux fruits (maison ou achetées en magasin)",FALSE
 "unpjorc",140,"FRUITS","FRUITS","Unpasteurized apple cider or fruit juice","Cidre de pomme ou jus de fruits non pasteurisés",FALSE
 "unpjuice",141,"FRUITS","FRUITS","Unpasteurized fruit juice*","Jus de fruits non pasteurisé*",TRUE
-"anynut",143,"FRUITS","FRUITS","Any nuts","Noix",FALSE
+"anynuts",143,"FRUITS","FRUITS","Any nuts","Noix",FALSE
 "peanut",144,"FRUITS","FRUITS","Peanuts (not including peanut butter)","Arachides (sauf le beurre ou la tartinade d’arachide)",FALSE
 "pnbutter",145,"FRUITS","FRUITS","Peanut butter","Beurre d’arachides",FALSE
 "almond",146,"FRUITS","FRUITS","Almonds (excluding almond butter)","Amandes(sauf le beurre ou la tartinade d’amandes)",FALSE
-"abutter",147,"FRUITS","FRUITS","Almond butter/spread","Beurre d’amande",FALSE
+"almondbutter",147,"FRUITS","FRUITS","Almond butter/spread","Beurre d’amande",FALSE
 "walnut",148,"FRUITS","FRUITS","Walnuts","Noix de Grenoble",FALSE
-"hazelnut",149,"FRUITS","FRUITS","Hazelnuts (Filberts)","Noisettes (sauf le beurre ou la tartinade de noisette)",FALSE
+"hazelnutbutter",149,"FRUITS","FRUITS","Hazelnuts (Filberts)","Noisettes (sauf le beurre ou la tartinade de noisette)",FALSE
 "hspread",150,"FRUITS","FRUITS","Butter/spread containing hazelnuts","Tartinade aux noisettes",FALSE
 "cashew",151,"FRUITS","FRUITS","Cashews","Noix de cajou (sauf le beurre ou la tartinade de cajou)",FALSE
 "cbutter",152,"FRUITS","FRUITS","Cashew butter/spread","Beurre de cajou",FALSE
@@ -150,7 +150,7 @@
 "nutpaste",155,"FRUITS","FRUITS","Other nut paste, butter or spread*","Autres pâtes, beurres ou tartinades de noix*",TRUE
 "anyseed",156,"FRUITS","FRUITS","Any seeds","Toutes les graines",FALSE
 "sunflwsd",157,"FRUITS","FRUITS","Sunflower seeds","Graines de tournesol",FALSE
-"ssbutter",158,"FRUITS","FRUITS","Butter or paste containing sunflower seeds","Beurre ou pâte contenant des graines de tournesol",FALSE
+"sunbutter",158,"FRUITS","FRUITS","Butter or paste containing sunflower seeds","Beurre ou pâte contenant des graines de tournesol",FALSE
 "sesamesd",159,"FRUITS","FRUITS","Sesame seeds","Graines de sésame",FALSE
 "tahini",160,"FRUITS","FRUITS","Tahini, including home made hummus","Tahini (pâte de sésame), y compris dans du houmous maison",FALSE
 "tahinifb1",161,"FRUITS","FRUITS","Tahini, halva or other products made from sesame seeds*","Tahini, halva ou autres produits faits à partir de graines de sésame*",TRUE
@@ -158,14 +158,14 @@
 "flax",163,"FRUITS","FRUITS","Flax seeds/flax seed powder","Graines de lin et poudre de graines de lin",FALSE
 "oseed",164,"FRUITS","FRUITS","Other seeds","Autres graines",FALSE
 "anybeef",166,"BEEF","BEEF","Any beef (not including deli-meat)","Bœuf (sauf la charcuterie)",FALSE
-"anygroundbeef",167,"BEEF","BEEF","Any ground beef","Bœuf haché",FALSE
+"bground",167,"BEEF","BEEF","Any ground beef","Bœuf haché",FALSE
 "bgroundraw",168,"BEEF","BEEF","Ground beef consumed raw or undercooked","Bœuf haché consommé cru ou pas assez cuit",FALSE
-"bground",169,"BEEF","BEEF","Any other ground beef*","Autre bœuf haché*",TRUE
+"obground",169,"BEEF","BEEF","Any other ground beef*","Autre bœuf haché*",TRUE
 "hamb",170,"BEEF","BEEF","Any hamburgers","Hamburgers",FALSE
 "zbeefpatties",171,"BEEF","BEEF","Store-bought frozen beef patties","Galettes de bœuf haché achetées congelées",FALSE
 "hambhome",172,"BEEF","BEEF","Home-made hamburgers*","Hamburgers faites à la maison*",TRUE
 "hambrest",173,"BEEF","BEEF","Hamburgers from a restaurant or fast food establishment*","Hamburgers provenant d'un restaurant ou d'un restaurant-minute*",TRUE
-"rawbeef",174,"BEEF","BEEF","Raw beef","Bœuf cru (sauf le bœuf haché cru)",FALSE
+"rawb",174,"BEEF","BEEF","Raw beef","Bœuf cru (sauf le bœuf haché cru)",FALSE
 "steak",175,"BEEF","BEEF","Steak","Bifteck",FALSE
 "stewingb",176,"BEEF","BEEF","Stewing beef","Bœuf à ragoût",FALSE
 "veal",177,"BEEF","BEEF","Veal","Veau",FALSE
@@ -192,8 +192,8 @@
 "anyturk",200,"POULTRY","POULTRY","Any turkey (not including deli-meat)","Dinde (sauf la charcuterie)",FALSE
 "sausage_turk",201,"POULTRY","POULTRY","Ground turkey","Saucisses de dinde",FALSE
 "tground",202,"POULTRY","POULTRY","Turkey sausage","Dinde hachée",FALSE
-"turkparts",203,"POULTRY","POULTRY","Whole turkey","Dinde en morceaux ou en pièce",FALSE
-"wholet",204,"POULTRY","POULTRY","Turkey pieces and parts","Dinde entière",FALSE
+"wholet",203,"POULTRY","POULTRY","Whole turkey","Dinde en morceaux ou en pièce",FALSE
+"turkparts",204,"POULTRY","POULTRY","Turkey pieces and parts","Dinde entière",FALSE
 "tbacon",205,"POULTRY","POULTRY","Turkey bacon*","Bacon de dinde*",TRUE
 "poultryo",206,"POULTRY","POULTRY","Other poultry (not including deli-meat)","Autres types de volaille (sauf la charcuterie)",FALSE
 "deliany",208,"DELI-MEAT","CHARCUTERIES","Any deli-meat/cold cuts","Charcuteries ou viandes froides",FALSE
@@ -248,7 +248,7 @@
 "feta",262,"CHEESE","CHEESE","Feta","Feta",FALSE
 "scheese",263,"CHEESE","CHEESE","Brie, camembert or other soft cheese","Brie, camembert ou autre fromage à pâte molle",FALSE
 "gcheese",264,"CHEESE","CHEESE","Cheese made from goats milk","Fromage de lait de chèvre",FALSE
-"cheeseunp",265,"CHEESE","CHEESE","Any cheese made with unpasteurized milk","Fromage fait de lait non pasteurisé",FALSE
+"cheeseunpas",265,"CHEESE","CHEESE","Any cheese made with unpasteurized milk","Fromage fait de lait non pasteurisé",FALSE
 "cheddar",266,"CHEESE","CHEESE","Cheddar*","Cheddar*",TRUE
 "mozz",267,"CHEESE","CHEESE","Mozzarella*","Mozzarella*",TRUE
 "parm",268,"CHEESE","CHEESE","Parmesan*","Parmesan*",TRUE
@@ -257,16 +257,16 @@
 "bvcheese",271,"CHEESE","CHEESE","Blue-veined cheese*","Fromages à pâte persillée*",TRUE
 "fcheese",272,"CHEESE","CHEESE","Cottage, ricotta or other fresh cheese*","Cottage, ricotta ou autre fromage frais*",TRUE
 "gscheese",273,"CHEESE","CHEESE","Goat/sheep milk cheese*","Fromage de lait de chèvre/brebis*",TRUE
-"nondairymilk",275,"DAIRY / DAIRY SUBSTITUTES","PRODUITS LAITIERS / SUBSTITUTS","Non-dairy milk","Substituts ou succédanés de lait",FALSE
-"nondairyprod",276,"DAIRY / DAIRY SUBSTITUTES","PRODUITS LAITIERS / SUBSTITUTS","Other non-dairy products/substitutes","Autres produits et substituts non laitiers",FALSE
+"milko",275,"DAIRY / DAIRY SUBSTITUTES","PRODUITS LAITIERS / SUBSTITUTS","Non-dairy milk","Substituts ou succédanés de lait",FALSE
+"nondairyo",276,"DAIRY / DAIRY SUBSTITUTES","PRODUITS LAITIERS / SUBSTITUTS","Other non-dairy products/substitutes","Autres produits et substituts non laitiers",FALSE
 "flour",278,"DRIED/PROCESSED/OTHER","DRIED/PROCESSED/OTHER","Any wheat flour","Farine de blé",FALSE
 "dough",279,"DRIED/PROCESSED/OTHER","DRIED/PROCESSED/OTHER","Eat, taste or lick any uncooked or unbaked dough made with wheat flour","Pâte ou mélange à base de farine de blé non cuit mangé, goûté ou léché",FALSE
 "oflour",280,"DRIED/PROCESSED/OTHER","DRIED/PROCESSED/OTHER","Other flours","Autres farines",FALSE
 "pbmeat",281,"DRIED/PROCESSED/OTHER","DRIED/PROCESSED/OTHER","Any plant-based meat substitutes","Substituts de viande à base de plantes",FALSE
 "tofu",282,"DRIED/PROCESSED/OTHER","DRIED/PROCESSED/OTHER","Tofu","Tofu",FALSE
-"othermeatsub",283,"DRIED/PROCESSED/OTHER","DRIED/PROCESSED/OTHER","Other plant based meat substitutes","Autres substituts de viande d’origine végétale",FALSE
+"soyprod",283,"DRIED/PROCESSED/OTHER","DRIED/PROCESSED/OTHER","Other plant based meat substitutes","Autres substituts de viande d’origine végétale",FALSE
 "hummus",284,"DRIED/PROCESSED/OTHER","DRIED/PROCESSED/OTHER","Hummus (excluding home-made)","Houmous (à l’exclusion du houmous maison)",FALSE
-"dietsup",285,"DRIED/PROCESSED/OTHER","DRIED/PROCESSED/OTHER","Dietary or nutritional supplement","Suppléments alimentaires",FALSE
+"supp",285,"DRIED/PROCESSED/OTHER","DRIED/PROCESSED/OTHER","Dietary or nutritional supplement","Suppléments alimentaires",FALSE
 "mealrepbev",286,"DRIED/PROCESSED/OTHER","DRIED/PROCESSED/OTHER","Meal replacement beverages","Boissons vendues comme substitut de repas",FALSE
 "protpowder",287,"DRIED/PROCESSED/OTHER","DRIED/PROCESSED/OTHER","Protein powder","Poudre de protéine",FALSE
 "probiotics",288,"DRIED/PROCESSED/OTHER","DRIED/PROCESSED/OTHER","Probiotics","Probiotiques",FALSE
@@ -298,15 +298,15 @@
 "dairyfarm",315,"DRIED/PROCESSED/OTHER","DRIED/PROCESSED/OTHER","Cheese or dairy products from a farmer's market or farm","Fromage et produits laitiers du marché ou de la ferme d'un fermier",FALSE
 "mealkit",316,"DRIED/PROCESSED/OTHER","DRIED/PROCESSED/OTHER","Food from a meal kit","Consommé des aliments provenant d’un service de livraison de boîtes repas",FALSE
 "organic",318,"DIETS","DIETS","Always or sometimes eats organic produce","Consomme toujours ou parfois des produits biologiques",FALSE
-"kosher",319,"DIETS","DIETS","Vegan diet","Régime casher",FALSE
-"vegan",320,"DIETS","DIETS","Vegetarian diet","Régime végétalien",FALSE
-"vegetarian",321,"DIETS","DIETS","Kosher diet","Régime végétarien",FALSE
+"vegan",319,"DIETS","DIETS","Vegetarian diet","Régime végétalien",FALSE
+"vegetarian",320,"DIETS","DIETS","Kosher diet","Régime végétarien",FALSE
+"kosher",321,"DIETS","DIETS","Vegan diet","Régime casher",FALSE
 "halal",322,"DIETS","DIETS","Halal diet","Régime halal",FALSE
 "drankhomew",324,"WATER","EAU","Drank water supplied to residence","Eau potable fournie à la résidence",FALSE
-"cmunicipal",326,"WATER","EAU","Municipal water","Eau de la municipalité ou de la ville",FALSE
-"cwell",327,"WATER","EAU","Private well","Puits privé",FALSE
+"water_municipal",326,"WATER","EAU","Municipal water","Eau de la municipalité ou de la ville",FALSE
+"water_well",327,"WATER","EAU","Private well","Puits privé",FALSE
 "ctruckedin",328,"WATER","EAU","Trucked-in water","Eau approvisionnée par des camions-citernes",FALSE
-"cbottled",329,"WATER","EAU","Store-bought bottled water","Eau embouteillée du commerce",FALSE
+"water_bottled",329,"WATER","EAU","Store-bought bottled water","Eau embouteillée du commerce",FALSE
 "ccistern",330,"WATER","EAU","Cistern","Citerne",FALSE
 "cnottreated",331,"WATER","EAU","Untreated lake, spring or river water","Eau de lac, de source ou de riviere non traitee",FALSE
 "cotherw",332,"WATER","EAU","Other water source","Autres sources d’eau",FALSE
@@ -325,12 +325,12 @@
 "animalcont",346,"ANIMAL CONTACT","CONTACT AVEC LES ANIMAUX","Any contact with animals, animal waste, habitat or food*","Contact avec un animal ou avec des excréments, l'habitat ou la nourriture d'un animal*",TRUE
 "animalh",347,"ANIMAL CONTACT","CONTACT AVEC LES ANIMAUX","Companion animals present in the home","Animaux de compagnie présents au domicile",FALSE
 "domanim",348,"ANIMAL CONTACT","CONTACT AVEC LES ANIMAUX","Any contact with companion animals","Tout contact avec des animaux de compagnie",FALSE
-"cat",349,"ANIMAL CONTACT","CONTACT AVEC LES ANIMAUX","Cat","Chat",FALSE
-"dog",350,"ANIMAL CONTACT","CONTACT AVEC LES ANIMAUX","Dog","Chien",FALSE
-"reptileoramphi",351,"ANIMAL CONTACT","CONTACT AVEC LES ANIMAUX","Reptile or amphibian","Reptile ou amphibien",FALSE
+"domanim_dog",350,"ANIMAL CONTACT","CONTACT AVEC LES ANIMAUX","Dog","Chien",FALSE
+"domanim_cat",349,"ANIMAL CONTACT","CONTACT AVEC LES ANIMAUX","Cat","Chat",FALSE
+"domanim_reptile",351,"ANIMAL CONTACT","CONTACT AVEC LES ANIMAUX","Reptile or amphibian","Reptile ou amphibien",FALSE
 "rept",352,"ANIMAL CONTACT","CONTACT AVEC LES ANIMAUX","Reptile*","Reptile*",TRUE
 "amphi",353,"ANIMAL CONTACT","CONTACT AVEC LES ANIMAUX","Amphibian*","Amphibien*",TRUE
-"rodent",354,"ANIMAL CONTACT","CONTACT AVEC LES ANIMAUX","Rodent","Rongeur",FALSE
+"domanim_rodent",354,"ANIMAL CONTACT","CONTACT AVEC LES ANIMAUX","Rodent","Rongeur",FALSE
 "rabbit",355,"ANIMAL CONTACT","CONTACT AVEC LES ANIMAUX","Rabbit","Lapin",FALSE
 "hedgehog",356,"ANIMAL CONTACT","CONTACT AVEC LES ANIMAUX","Hedgehog","Hérisson",FALSE
 "bird",357,"ANIMAL CONTACT","CONTACT AVEC LES ANIMAUX","Bird","Oiseau",FALSE
@@ -339,11 +339,11 @@
 "petdiarr",360,"ANIMAL CONTACT","CONTACT AVEC LES ANIMAUX","Contact with pet with diarrhea","Contact avec un animal souffrant de diarrhée",FALSE
 "petfood",361,"ANIMAL CONTACT","CONTACT AVEC LES ANIMAUX","Handled any pet food or treats","A manipulé de la nourriture ou des friandises pour animaux de compagnie",FALSE
 "animfddry",362,"ANIMAL CONTACT","CONTACT AVEC LES ANIMAUX","Handled any dry pet food","Nourriture sèche pour animaux de compagnie",FALSE
-"animfdcan",363,"ANIMAL CONTACT","CONTACT AVEC LES ANIMAUX","Handled any canned/wet pet food*","Manipulation d'aliments en conserve ou humides pour animaux de compagnie*",TRUE
+"animfdwet",363,"ANIMAL CONTACT","CONTACT AVEC LES ANIMAUX","Handled any canned/wet pet food*","Manipulation d'aliments en conserve ou humides pour animaux de compagnie*",TRUE
 "animfdraw",364,"ANIMAL CONTACT","CONTACT AVEC LES ANIMAUX","Handled any raw pet food (store-bought or home-made)","Aliments crus pour animaux de compagnie",FALSE
-"animfdtreat",365,"ANIMAL CONTACT","CONTACT AVEC LES ANIMAUX","Handled any raw treats derived from animal parts","Friandises crues faites de parties d’animaux",FALSE
-"animfdpr",366,"ANIMAL CONTACT","CONTACT AVEC LES ANIMAUX","Handled any processed animal treats","Friandises transformées pour animaux de compagnie",FALSE
-"animfdrod",367,"ANIMAL CONTACT","CONTACT AVEC LES ANIMAUX","Handled any rodents for reptiles","Rongeurs utilisés pour nourrir les reptiles",FALSE
+"animfdparts",365,"ANIMAL CONTACT","CONTACT AVEC LES ANIMAUX","Handled any raw treats derived from animal parts","Friandises crues faites de parties d’animaux",FALSE
+"animfdproc",366,"ANIMAL CONTACT","CONTACT AVEC LES ANIMAUX","Handled any processed animal treats","Friandises transformées pour animaux de compagnie",FALSE
+"animfdrodent",367,"ANIMAL CONTACT","CONTACT AVEC LES ANIMAUX","Handled any rodents for reptiles","Rongeurs utilisés pour nourrir les reptiles",FALSE
 "rodentsinsect",368,"ANIMAL CONTACT","CONTACT AVEC LES ANIMAUX","Handled any rodents or insects for reptiles*","Manipulation de rongeurs ou d'insectes pour reptiles*",TRUE
 "farman",369,"ANIMAL CONTACT","CONTACT AVEC LES ANIMAUX","Handled any farm animals/livestock or their waste","Manipulé des animaux de la ferme / du bétail ou leurs déchets",FALSE
 "cattle",370,"ANIMAL CONTACT","CONTACT AVEC LES ANIMAUX","Cattle","Bovins",FALSE
