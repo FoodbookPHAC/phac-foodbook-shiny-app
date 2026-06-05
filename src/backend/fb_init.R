@@ -154,9 +154,9 @@ fb_init <- function(lang = "en") {
   # =============================================================================
   # Harmonize common code renames in label_map to match toolkit names
   # This avoids duplicate labels causing one to be dropped
-  fb_env$label_map$code[fb_env$label_map$code == "water_municipal"] <- "cmunicipal"
-  fb_env$label_map$code[fb_env$label_map$code == "water_bottled"] <- "cbottled"
-  fb_env$label_map$code[fb_env$label_map$code == "water_well"] <- "cwell"
+#  fb_env$label_map$code[fb_env$label_map$code == "water_municipal"] <- "cmunicipal"
+ # fb_env$label_map$code[fb_env$label_map$code == "water_bottled"] <- "cbottled"
+  #fb_env$label_map$code[fb_env$label_map$code == "water_well"] <- "cwell"
   
   # Ensure exposure_codes is still updated for other logic
   fb_env$exposure_codes <- unique(fb_env$label_map$code)

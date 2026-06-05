@@ -105,7 +105,7 @@ rename Q13 bpeppers
 rename Q14 hotpeppers
 rename Q15 snappea
 rename Q16 mushroom
-rename Q17_dv onions
+rename Q17_dv onion
 rename Q17B_dv redonion
 rename Q17A_dv grnonion
 rename Q17C_dv oonion
@@ -192,7 +192,7 @@ rename Q46 oseed
 
 
 rename Q47_dv anybeef 
-rename Q47A_dv anygroundbeef
+rename Q47A_dv bground
 rename Q47AI_dv bgroundraw
 rename Q47B_dv hamb
 rename Q47BI_dv zbeefpatties
@@ -274,7 +274,7 @@ rename Q75B_dv feta
 rename Q75C_dv scheese 
 rename Q75D_dv gcheese /*FB 2 JUST GOAT*/ 
 rename Q75E_dv cheeseunpas
-rename Q76 milko
+rename Q76 omilk
 rename Q77 nondairyo
 
 rename Q78 flour
@@ -307,8 +307,8 @@ rename Q87D_dv omealkit
 rename Q91 swim
  
 rename Q93_dv domanim 
-rename Q97_dv domanim_cat
 rename Q96_dv domanim_dog
+rename Q97_dv domanim_cat
 rename Q102_dv domanim_bird
 rename Q98_dv domanim_reptile
 rename Q99_dv domanim_rodent
@@ -328,6 +328,7 @@ rename Q107_dv animfdrodent
 
 rename Q90_C4 water_bottled
 rename Q90_C1 water_municipal
+rename Q90_C2 water_well
 
 /*Merge weight variables from Foodbook 1 and 2*/
 
