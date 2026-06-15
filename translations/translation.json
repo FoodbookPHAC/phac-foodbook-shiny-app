@@ -322,8 +322,8 @@
       "fr": "Limite : Preuves suggestives (0,05 ≤ p < 0,10)"
     },
     {
-      "en": "Not Significant: No significant difference from reference (p ≥ 0.10)",
-      "fr": "Non significatif : Aucune différence significative par rapport à la référence (p ≥ 0,10)"
+      "en": "Not Significant: No significant difference from reference (p > 0.10)",
+      "fr": "Non significatif : Aucune différence significative par rapport à la référence (p > 0,10)"
     },
     {
       "en": "Insufficient Data: Too few cases to calculate statistics (< 5 total responses)",

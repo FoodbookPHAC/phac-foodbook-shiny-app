@@ -72,7 +72,7 @@ mod_about_server <- function(id, get_tr) {
           ),
           tags$li(
             strong(tr$t("Not Significant")), ": ",
-            tr$t("No significant difference from reference (p \u2265 0.10)")
+            tr$t("No significant difference from reference (p > 0.10)")
           ),
           tags$li(
             strong(tr$t("Insufficient Data")), ": ",
@@ -134,14 +134,14 @@ mod_about_server <- function(id, get_tr) {
         tags$ul(
           tags$li(
             tags$a(
-              href = "https://open.canada.ca/data/en/dataset/foodbook-2-0-public-use-microdata-file",
+              href = "https://open.canada.ca/data/en/dataset/1efcd118-a3df-4cd0-86ae-e4233386b0c6",
               target = "_blank",
               tr$t("Foodbook 2.0 Data (Open Canada)")
             )
           ),
           tags$li(
             tags$a(
-              href = "https://open.canada.ca/data/en/dataset/foodbook-open-data",
+              href = "https://open.canada.ca/data/en/dataset/ddf6c129-2698-422a-abb5-f7465ed549ee",
               target = "_blank",
               tr$t("Foodbook 1.0 Data (Open Canada)")
             )
@@ -161,7 +161,7 @@ mod_about_server <- function(id, get_tr) {
         p(
           class = "text-body-secondary", style = "font-size: 0.9rem;",
           tr$t("For questions or support, please contact:"), " ",
-          tr$t("[Contact email placeholder]")
+          tr$t("info@outbreaktools.ca")
         ),
         p(
           class = "text-body-secondary", style = "font-size: 0.85rem;",
