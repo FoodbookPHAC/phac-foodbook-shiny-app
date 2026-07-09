@@ -107,7 +107,7 @@
     },
     {
       "en": "Foodbook 1 only",
-      "fr": "Foodbook 1 seulement"
+      "fr": "Atlas alimentaire 1 seulement"
     },
     {
       "en": "Sample Sizes by Province/Territory",
@@ -135,7 +135,7 @@
     },
     {
       "en": "Choose exposures from the Foodbook database or type custom exposure names.",
-      "fr": "Choisissez des expositions dans la base de données Foodbook ou saisissez des noms d'exposition personnalisés."
+      "fr": "Choisissez des expositions dans la base de données l'atlas alimentaire ou saisissez des noms d'exposition personnalisés."
     },
     {
       "en": "Type or select exposures...",
@@ -307,7 +307,7 @@
     },
     {
       "en": "This tool compares observed case exposures against Foodbook reference percentages using statistical significance testing.",
-      "fr": "Cet outil compare les expositions de cas observées aux pourcentages de référence de Foodbook en utilisant des tests de signification statistique."
+      "fr": "Cet outil compare les expositions de cas observées aux pourcentages de référence de l'atlas alimentaire en utilisant des tests de signification statistique."
     },
     {
       "en": "Interpretation Guide",
@@ -331,7 +331,7 @@
     },
     {
       "en": "No Reference Value: Exposure not found in Foodbook database",
-      "fr": "Aucune valeur de référence : Exposition non trouvée dans la base de données Foodbook"
+      "fr": "Aucune valeur de référence : Exposition non trouvée dans la base de données l'atlas alimentaire"
     },
     {
       "en": "Good Practices",
@@ -359,11 +359,11 @@
     },
     {
       "en": "This tool uses public Foodbook data from Open Canada (Foodbook 1 and Foodbook 2).",
-      "fr": "Cet outil utilise les données publiques de Foodbook provenant de Données ouvertes Canada (Foodbook 1 et Foodbook 2)."
+      "fr": "Cet outil utilise les données publiques de l'atlas alimentaire provenant de Données ouvertes Canada (atlas alimentaire 1 et atlas alimentaire 2)."
     },
     {
       "en": "Foodbook: A survey of food consumption patterns in Canada",
-      "fr": "Foodbook : Une enquête sur les habitudes de consommation alimentaire au Canada"
+      "fr": "Atlas alimentaire : Une enquête sur les habitudes de consommation alimentaire au Canada"
     },
     {
       "en": "Download Results",
@@ -763,7 +763,7 @@
     },
     {
       "en": "Exposure names will be matched against Foodbook database in English or French (case-insensitive). Unmatched exposures will use custom references.",
-      "fr": "Les noms d'expositions seront appariés avec la base de données Foodbook en anglais ou français (insensible à la casse). Les expositions non appariées utiliseront des références personnalisées."
+      "fr": "Les noms d'expositions seront appariés avec la base de données l'atlas alimentaire en anglais ou français (insensible à la casse). Les expositions non appariées utiliseront des références personnalisées."
     },
     {
       "en": "cases",
@@ -795,7 +795,7 @@
     },
     {
       "en": "The Food Exposure Analysis Tool facilitates the comparison of case exposure data against population reference values from the Foodbook Report.",
-      "fr": "L'outil d'analyse de l'exposition alimentaire facilite la comparaison des données d'exposition des cas avec les valeurs de référence de la population du rapport Foodbook."
+      "fr": "L'outil d'analyse de l'exposition alimentaire facilite la comparaison des données d'exposition des cas avec les valeurs de référence de la population du rapport l'atlas alimentaire."
     },
     {
       "en": "Population reference values for Canada and Provinces/Territories.",
@@ -839,7 +839,7 @@
     },
     {
       "en": "Compare your case exposures to typical population exposures from Foodbook to prioritise hypotheses during outbreak investigations.",
-      "fr": "Comparez les expositions de vos cas aux expositions typiques de la population de Foodbook pour prioriser les hypothèses lors des enquêtes sur les éclosions."
+      "fr": "Comparez les expositions de vos cas aux expositions typiques de la population de l'atlas alimentaire pour prioriser les hypothèses lors des enquêtes sur les éclosions."
     },
     {
       "en": "How references are computed",
@@ -847,7 +847,7 @@
     },
     {
       "en": "References use Foodbook microdata with survey weights.",
-      "fr": "Les références utilisent les microdonnées de Foodbook avec des poids d'enquête."
+      "fr": "Les références utilisent les microdonnées de l'atlas alimentaire avec des poids d'enquête."
     },
     {
       "en": "If multiple PTs are selected, a single combined reference is computed across them.",
@@ -935,7 +935,7 @@
     },
     {
       "en": "This app computes reference exposure percentages from Foodbook microdata, weighted and combined across your selected filters.",
-      "fr": "Cette application calcule les pourcentages d'exposition de référence à partir des microdonnées de Foodbook, pondérées et combinées selon vos filtres sélectionnés."
+      "fr": "Cette application calcule les pourcentages d'exposition de référence à partir des microdonnées de l'atlas alimentaire, pondérées et combinées selon vos filtres sélectionnés."
     },
     {
       "en": "Reference PT(s): ",
@@ -971,7 +971,7 @@
     },
     {
       "en": "Exposure not found in Foodbook database",
-      "fr": "Exposition non trouvée dans la base de données Foodbook"
+      "fr": "Exposition non trouvée dans la base de données l'atlas alimentaire"
     },
     {
       "en": "Coverage by PT (after filters)",
@@ -1047,15 +1047,15 @@
     },
     {
       "en": "*Data available from Foodbook 1.0 only",
-      "fr": "*Données disponibles uniquement à partir de Foodbook 1.0"
+      "fr": "*Données disponibles uniquement à partir de l'atlas alimentaire 1.0"
     },
     {
       "en": "Foodbook is a population-based survey conducted in all Canadian provinces and territories. It provides essential data on food, animal and water exposure used to understand, respond to, control and prevent enteric illness in Canada.",
-      "fr": "Foodbook est une enquête en population menée dans toutes les provinces et tous les territoires canadiens. Elle fournit des données essentielles sur l'exposition aux aliments, aux animaux et à l'eau, utilisées pour comprendre, réagir, contrôler et prévenir les maladies entériques au Canada."
+      "fr": "Atlas alimentaire est une enquête en population menée dans toutes les provinces et tous les territoires canadiens. Elle fournit des données essentielles sur l'exposition aux aliments, aux animaux et à l'eau, utilisées pour comprendre, réagir, contrôler et prévenir les maladies entériques au Canada."
     },
     {
       "en": "Foodbook 2.0 (2023-2024)",
-      "fr": "Foodbook 2.0 (2023-2024)"
+      "fr": "Atlas alimentaire 2.0 (2023-2024)"
     },
     {
       "en": "Online and telephone survey with ~21,000 respondents across Canada",
@@ -1063,7 +1063,7 @@
     },
     {
       "en": "Foodbook 1.0 (2014-2015)",
-      "fr": "Foodbook 1.0 (2014-2015)"
+      "fr": "Atlas alimentaire 1.0 (2014-2015)"
     },
     {
       "en": "Telephone survey with ~10,000 respondents (exposures marked with * are from this survey only)",
@@ -1111,7 +1111,7 @@
     },
     {
       "en": "Exposures from Foodbook 1.0 (*) use different survey weights than Foodbook 2.0",
-      "fr": "Les expositions de Foodbook 1.0 (*) utilisent des poids d'enquête différents de ceux de Foodbook 2.0"
+      "fr": "Les expositions de l'atlas alimentaire 1.0 (*) utilisent des poids d'enquête différents de ceux de l'atlas alimentaire 2.0"
     },
     {
       "en": "Useful Links",
@@ -1119,11 +1119,11 @@
     },
     {
       "en": "Foodbook 2.0 Data (Open Canada)",
-      "fr": "Données Foodbook 2.0 (Canada Ouvert)"
+      "fr": "Données l'atlas alimentaire 2.0 (Canada Ouvert)"
     },
     {
       "en": "Foodbook 1.0 Data (Open Canada)",
-      "fr": "Données Foodbook 1.0 (Canada Ouvert)"
+      "fr": "Données l'atlas alimentaire 1.0 (Canada Ouvert)"
     },
     {
       "en": "Public Health Agency of Canada",
@@ -1139,7 +1139,7 @@
     },
     {
       "en": "This means the exposure was not asked in either Foodbook survey, or the variable name doesn't match. Try searching for a similar exposure name.",
-      "fr": "Cela signifie que l'exposition n'a pas été posée dans les enquêtes Foodbook, ou que le nom de la variable ne correspond pas. Essayez de rechercher un nom d'exposition similaire."
+      "fr": "Cela signifie que l'exposition n'a pas été posée dans les enquêtes l'atlas alimentaire, ou que le nom de la variable ne correspond pas. Essayez de rechercher un nom d'exposition similaire."
     },
     {
       "en": "What does the * mean next to some exposures?",
@@ -1147,7 +1147,7 @@
     },
     {
       "en": "Exposures marked with * are only available from Foodbook 1.0 (2014-2015). They are included for completeness but may not reflect current consumption patterns.",
-      "fr": "Les expositions marquées d'un * ne sont disponibles que dans Foodbook 1.0 (2014-2015). Elles sont incluses pour exhaustivité mais peuvent ne pas refléter les habitudes de consommation actuelles."
+      "fr": "Les expositions marquées d'un * ne sont disponibles que dans l'atlas alimentaire 1.0 (2014-2015). Elles sont incluses pour exhaustivité mais peuvent ne pas refléter les habitudes de consommation actuelles."
     },
     {
       "en": "Why do reference values change when I select different PTs?",
@@ -1195,19 +1195,19 @@
     },
     {
       "en": "* Exposures from Foodbook 1.0",
-      "fr": "* Expositions de Foodbook 1.0"
+      "fr": "* Expositions de l'atlas alimentaire 1.0"
     },
     {
       "en": "* Exposures from Foodbook 1 only",
-      "fr": "* Expositions de Foodbook 1 seulement"
+      "fr": "* Expositions de l'atlas alimentaire 1 seulement"
     },
     {
       "en": "Foodbook 1.0 (2014-2015):",
-      "fr": "Foodbook 1.0 (2014-2015) :"
+      "fr": "Atlas alimentaire 1.0 (2014-2015) :"
     },
     {
       "en": "Foodbook 2.0 (2023-2024):",
-      "fr": "Foodbook 2.0 (2023-2024) :"
+      "fr": "Atlas alimentaire 2.0 (2023-2024) :"
     },
     {
       "en": "Actions",
