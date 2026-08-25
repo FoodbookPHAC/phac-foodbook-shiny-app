@@ -93,7 +93,7 @@ mod_about_server <- function(id, get_tr) {
           tags$li(tr$t("Focus on Alert and Borderline classifications for hypothesis generation.")),
           tags$li(tr$t("Consider multiple testing correction when examining many exposures.")),
           tags$li(tr$t("Custom exposures require you to provide the expected reference percentage.")),
-          tags$li(tr$t("Please be careful not to overanalyse the data. Limiting the reference data to a small subset of respondents (for example, respondents ages 0-9 from PEI in March) can result in small sample sizes and make the data less reliable. This is especially important for exposures that are rare within the population. Findings based on very small numbers of cases should also be interpreted cautiously."))
+          tags$li(tr$t("Please be careful not to overanalyse the data. Limiting the reference data to a small subset of respondents (e.g., respondents ages 0-9 from PEI in March) can result in small sample sizes and make the data less reliable. This is especially important for exposures that are rare within the population. Findings based on very small numbers of cases should also be interpreted cautiously."))
         ),
 
         hr(),
