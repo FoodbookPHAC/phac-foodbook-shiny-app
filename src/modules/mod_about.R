@@ -74,10 +74,10 @@ mod_about_server <- function(id, get_tr) {
             strong(tr$t("Not Significant")), ": ",
             tr$t("No significant difference from reference (p > 0.10)")
           ),
-          tags$li(
-            strong(tr$t("Insufficient Data")), ": ",
-            tr$t("Too few cases to calculate statistics (< 5 total responses)")
-          ),
+   #       tags$li(
+    #        strong(tr$t("Insufficient Data")), ": ",
+     #       tr$t("Too few cases to calculate statistics (< 5 total responses)")
+      #    ),
           tags$li(
             strong(tr$t("No Reference Value")), ": ",
             tr$t("Exposure not found in Foodbook database")
@@ -93,7 +93,7 @@ mod_about_server <- function(id, get_tr) {
           tags$li(tr$t("Focus on Alert and Borderline classifications for hypothesis generation.")),
           tags$li(tr$t("Consider multiple testing correction when examining many exposures.")),
           tags$li(tr$t("Custom exposures require you to provide the expected reference percentage.")),
-          tags$li(tr$t("Please be careful not to overanalyse the data. Limiting the data to a small subset of respondents (for example, respondents ages 0-9 from PEI in March) can result in small sample sizes and make the data less reliable. This is especially important for exposures that are rare within the population."))
+          tags$li(tr$t("Please be careful not to overanalyse the data. Limiting the reference data to a small subset of respondents (for example, respondents ages 0-9 from PEI in March) can result in small sample sizes and make the data less reliable. This is especially important for exposures that are rare within the population. Findings based on very small numbers of cases should also be interpreted cautiously."))
         ),
 
         hr(),
