@@ -4,7 +4,7 @@
 # Input validation limits
 FB_MAX_COUNT <- 10000L
 FB_MAX_UPLOAD_BYTES <- 10L * 1024L * 1024L # 10 MB
-#hi
+
 # Statistical thresholds
 FB_MIN_SAMPLE_SIZE <- 0L
 FB_P_VALUE_ALERT <- 0.05

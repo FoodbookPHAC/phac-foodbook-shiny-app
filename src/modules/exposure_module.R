@@ -1,6 +1,6 @@
 # Exposure Input Module
 # Provides UI and server logic for entering case exposure counts
-
+#Hi
 translate_or_fallback <- function(key, lang, fallback_en, fallback_fr = fallback_en) {
   fallback <- if (identical(lang, "fr")) fallback_fr else fallback_en
 
