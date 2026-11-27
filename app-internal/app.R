@@ -313,7 +313,7 @@ server <- function(input, output, session) {
           # 1. Sheet finding
           exp_sheet <- find_sheet_by_columns(
             path,
-            c("nationalid", "exposurecode", "hasexposureoccurred")
+            c("nationalid", "exposure", "exposurecode", "hasexposureoccurred")
           )
           validate(need(exp_sheet$found, "Missing exposure columns"))
 
@@ -324,6 +324,7 @@ server <- function(input, output, session) {
             transmute(
               natid = as.character(.data$nationalid),
               exposure = as.character(.data$exposurecode),
+              exposure_label = as.character(.data$exposure),
               val = tolower(as.character(.data$hasexposureoccurred))
             )
 
@@ -475,6 +476,12 @@ server <- function(input, output, session) {
     }
 
     # Summarize
+    uploaded_exposure_labels <- d_filtered |>
+      filter(!is.na(exposure_label), nzchar(trimws(exposure_label))) |>
+      distinct(exposure, exposure_label) |>
+      group_by(exposure) |>
+      summarise(uploaded_label = first(exposure_label), .groups = "drop")
+
     exposure_counts <- d_filtered |>
       mutate(
         val = case_when(
@@ -488,7 +495,8 @@ server <- function(input, output, session) {
       filter(val %in% c("Y", "N", "P", "DK")) |>
       distinct(natid, exposure, val) |>
       count(exposure, val) |>
-      tidyr::pivot_wider(names_from = val, values_from = n, values_fill = 0)
+      tidyr::pivot_wider(names_from = val, values_from = n, values_fill = 0) |>
+      left_join(uploaded_exposure_labels, by = "exposure")
 
     if (nrow(exposure_counts) == 0) {
       return(NULL)
@@ -511,13 +519,14 @@ server <- function(input, output, session) {
     names(code_to_label) <- as.vector(fb_exposure_choices_all(lang))
 
     analysis_df <- tibble::tibble(
-      ExposureLabel = purrr::map_chr(
+      ExposureLabel = purrr::map2_chr(
         exposure_counts$exposure,
-        function(x) {
+        exposure_counts$uploaded_label,
+        function(x, uploaded_label) {
           sub(
             " \\([^)]+\\)$",
             "",
-            code_to_label[x] %||% htmltools::htmlEscape(x)
+            fb_resolve_label_or_code(x, code_to_label, uploaded_label)
           )
         }
       ),

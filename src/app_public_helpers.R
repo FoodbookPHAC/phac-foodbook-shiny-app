@@ -32,6 +32,24 @@ fb_resolve_exposure_label <- function(code, lang, label_map) {
   unname(label)
 }
 
+#' Get label, falling back to uploaded exposure or exposure code
+fb_resolve_label_or_code <- function(code, label_map, uploaded_label = NULL) {
+  label <- unname(label_map[code])
+  label_is_missing <- length(label) == 0 ||
+    is.na(label)
+  if (label_is_missing) {
+    if (
+      length(uploaded_label) > 0 &&
+        !is.na(uploaded_label)
+    ) {
+      return(htmltools::htmlEscape(as.character(uploaded_label)))
+    }
+    return(htmltools::htmlEscape(as.character(code)))
+  }
+  label
+}
+
+
 #' Compute observed proportions, p-values, and classifications for exposure data
 #'
 #' Shared analysis logic used by both public and internal apps.
